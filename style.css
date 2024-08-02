@@ -9,8 +9,8 @@ body {
 }
 
 #perfil {
-   width: 35px;
-   height: 35px;
+   width: 33px;
+   height: 33px;
    border-radius: 50%;
 
 }
@@ -21,19 +21,25 @@ figure {
    padding: 10px;
 }
 
+#lupa {
+   opacity: 45%;
+}
+
 #cuadro {
-   width: 20px;
+   width: 25px;
+   opacity: 65%;  
 }
 
 footer div {
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
+   padding: 0 20px;
 }
 
-ul li{
-  display: inline-block; 
-  padding: 15px;
+ul li {
+   display: inline-block;
+   padding: 15px;
 }
 
 ul {
@@ -42,9 +48,10 @@ ul {
 }
 
 footer p {
-   padding: 10px;
+   padding: 14px 30px;
    margin: 0px;
    border-bottom: 1px solid #dadce0;
+   font-size: 15px;
 }
 
 nav {
@@ -55,12 +62,12 @@ nav {
 main {
    display: flex;
    justify-content: center;
-   height: 75vh;
+   height: 75.5vh;
 }
 
 #logo {
-   padding-top: 18vh;
-   height: 92px;
+   margin-top: 10vh;
+   height: 200px;
 }
 
 #buscador {
@@ -68,10 +75,16 @@ main {
    justify-content: center;
    border: 1px solid #dadce0;
    align-items: stretch;
-   height: 40px;
-   width: 572px;
+   height: 43px;
+   min-width: 562px;
    border-radius: 25px;
    margin: 25px 0px 20px 0px;
+}
+
+#buscador:hover {
+   background: #fff;
+   box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+   border-color: transparent;
 }
 
 #buscador input {
@@ -87,56 +100,53 @@ article {
 
 footer {
    background: #f2f2f2;
- }
+}
 
- button {
+button {
    background-color: #f8f9fa;
    border: 1px solid #f8f9fa;
+   color: #3c4043;
+
    padding: 0 16px;
    margin: 11px 4px;
    height: 36px;
-   font-size: 14px;
-   color: #3c4043;
+
    border-radius: 4px;
    font-size: 14px;
- }
+}
 
- button:hover {
-      box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-      background-color: #f8f9fa;
-      border: 1px solid #dadce0;
-      color: #202124;
-  }
- 
+button:hover {
+   box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+   background-color: #f8f9fa;
+   border: 1px solid #dadce0;
+   color: #202124;
+}
 
- a {
+a {
    text-decoration: none;
 
- }
+}
 
- /* Esto es para cambiar un estado */
- a:hover {
+/* Esto es para cambiar un estado */
+a:hover {
    text-decoration: underline;
- }
+}
 
- header a {
+header a {
    font-size: 13px;
    color: #1f1f1f;
- }
+   padding-top: 10px;
+}
 
- footer a {
+footer a {
    font-size: 14px;
    color: #202124;
- }
+}
 
- header ul {
+header ul {
    display: flex;
    align-items: center;
-   padding-top: 10px;
-   padding-right: 15px;
- }
-
-
-
-
- 
+   padding-left: 20px;
+   padding-bottom: 5px;
+   
+}
